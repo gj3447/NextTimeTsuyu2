@@ -1,0 +1,7 @@
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.csproj.AssemblyReference.cache
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.MainForm.resources
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.csproj.GenerateResource.cache
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.AssemblyInfoInputs.cache
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.AssemblyInfo.cs
+C:\CD\C#\NextTimeTsuyu2\WinFormTest\obj\Debug\net9.0\WinFormTest.csproj.CoreCompileInputs.cache

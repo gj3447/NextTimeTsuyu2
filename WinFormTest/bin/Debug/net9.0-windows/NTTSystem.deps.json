@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "NTTSystem/1.0.0": {
+        "dependencies": {
+          "NextTimeTsuyu2": "1.0.0"
+        },
+        "runtime": {
+          "NTTSystem.dll": {}
+        }
+      },
+      "NextTimeTsuyu2/1.0.0": {
+        "runtime": {
+          "NextTimeTsuyu2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NTTSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NextTimeTsuyu2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
