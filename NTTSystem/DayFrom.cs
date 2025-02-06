@@ -97,8 +97,11 @@ namespace NTTSystem
         {
             foreach(DayTo e in _day_to_list)
             {
-                if (e._id == id)
-                    return e;
+                if (e != null)
+                {
+                    if (e._id == id)
+                        return e;
+                }
             }
             return null;
         }
@@ -106,8 +109,11 @@ namespace NTTSystem
         {
             foreach (DayTo e in _day_to_list)
             {
-                if (e._write_path == write_path)
-                    return e;
+                if (e != null)
+                {
+                    if (e._write_path == write_path)
+                        return e;
+                }
             }
             return null;
         }

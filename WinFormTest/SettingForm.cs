@@ -22,6 +22,7 @@ namespace WinFormTest
             tkbMaxMemory.Value = (int)setting.get_memory_size;
             nudWorkerCount.Value = setting.get_worker_count;
             cbbLoadBalancerType.DataSource = Enum.GetValues(typeof(NextTimeTsuyu2.LoadBalancer.TYPE));
+
             lblChunkSize.Text = $"chunk_size : {_setting.get_chunk_size}";
             lblMaxMemory.Text = $"memory_size : {_setting.get_memory_size}";
             lblProcessCounter.Text = $"PC core count = {Environment.ProcessorCount}";

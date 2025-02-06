@@ -9,7 +9,7 @@ namespace NTTSystem
 {
     public class SystemSettingFile
     {
-        private static int base_chunk_size = 1024 * 1024;
+        private static int base_chunk_size = 1024;
         private static long base_memory_size = 1024 * 1024;
         private static NextTimeTsuyu2.LoadBalancer.TYPE base_loadbalancer_type = LoadBalancer.TYPE.BASIC;
         public NTTSystem.Copy _copy {get;set;}

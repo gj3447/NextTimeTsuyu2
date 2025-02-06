@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\CD\\C#\\NextTimeTsuyu2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|C:\\CD\\C#\\NextTimeTsuyu2\\winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\systemsettingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\systemsettingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\settingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\settingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\dayfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\dayfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|C:\\CD\\C#\\NextTimeTsuyu2\\winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\systemsettingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\systemsettingfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\winformtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\winformtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\dayfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\dayfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\swaptask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\winformtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\winformtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\loadbalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\loadbalancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\writetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nttsystem\\nttsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EFA6E533-8A73-4EDF-878A-9E385B6137FF}|NTTSystem\\NTTSystem.csproj|solutionrelative:nttsystem\\nttsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|c:\\cd\\c#\\nexttimetsuyu2\\winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C99CA3-9F63-4BA3-961E-A6853073F6C4}|WinFormTest\\WinFormTest.csproj|solutionrelative:winformtest\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|solutionrelative:nexttimetsuyu2\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8421E8B-FE7F-429E-9E21-5D229168F9F7}|NextTimeTsuyu2\\NextTimeTsuyu2.csproj|c:\\cd\\c#\\nexttimetsuyu2\\nexttimetsuyu2\\backup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -181,11 +181,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "MainForm.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.cs",
               "RelativeDocumentMoniker": "WinFormTest\\MainForm.cs",
@@ -198,16 +198,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.cs",
               "RelativeDocumentMoniker": "WinFormTest\\MainForm.cs",
               "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.cs",
               "RelativeToolTip": "WinFormTest\\MainForm.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAowMkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAJABAAAAAAAAAAApwKEBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T13:30:53.092Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingForm.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
+              "RelativeDocumentMoniker": "WinFormTest\\SettingForm.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
+              "RelativeToolTip": "WinFormTest\\SettingForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T15:34:34.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Setting.cs",
+              "RelativeDocumentMoniker": "NextTimeTsuyu2\\Setting.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Setting.cs",
+              "RelativeToolTip": "NextTimeTsuyu2\\Setting.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T06:13:56.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Program.cs",
+              "RelativeDocumentMoniker": "NextTimeTsuyu2\\Program.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Program.cs",
+              "RelativeToolTip": "NextTimeTsuyu2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T06:12:23.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SettingForm.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
+              "RelativeDocumentMoniker": "WinFormTest\\SettingForm.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "WinFormTest\\SettingForm.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:32:57.625Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SystemSettingFile.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\SystemSettingFile.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\SystemSettingFile.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\SystemSettingFile.cs",
+              "RelativeToolTip": "NTTSystem\\SystemSettingFile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:27:00.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DayFrom.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayFrom.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\DayFrom.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayFrom.cs",
+              "RelativeToolTip": "NTTSystem\\DayFrom.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAD4v1sAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:34:56.553Z",
               "EditorCaption": ""
             },
             {
@@ -220,162 +297,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SystemSettingFile.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\SystemSettingFile.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\SystemSettingFile.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\SystemSettingFile.cs",
-              "RelativeToolTip": "NTTSystem\\SystemSettingFile.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAA6wKcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:27:00.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Copy.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Copy.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\Copy.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Copy.cs",
-              "RelativeToolTip": "NTTSystem\\Copy.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:53:50.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SettingForm.Designer.cs",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.Designer.cs",
               "RelativeDocumentMoniker": "WinFormTest\\SettingForm.Designer.cs",
               "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.Designer.cs",
               "RelativeToolTip": "WinFormTest\\SettingForm.Designer.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAIwHcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T13:35:15.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormTest\\MainForm.Designer.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.Designer.cs",
-              "RelativeToolTip": "WinFormTest\\MainForm.Designer.cs",
-              "ViewState": "AgIAADYCAAAAAAAAAAAAAN8BAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:46:21.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingForm.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
-              "RelativeDocumentMoniker": "WinFormTest\\SettingForm.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "WinFormTest\\SettingForm.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T01:32:57.625Z",
-              "EditorCaption": " [\uB514\uC790\uC778]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DayFrom.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayFrom.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\DayFrom.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayFrom.cs",
-              "RelativeToolTip": "NTTSystem\\DayFrom.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAIwHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:34:56.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BackupResult.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\BackupResult.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\BackupResult.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\BackupResult.cs",
-              "RelativeToolTip": "NTTSystem\\BackupResult.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:32:06.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Program.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\Program.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Program.cs",
-              "RelativeToolTip": "NTTSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:02:16.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DayTo.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayTo.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\DayTo.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayTo.cs",
-              "RelativeToolTip": "NTTSystem\\DayTo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAywB0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:35:04.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormTest\\Program.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\Program.cs",
-              "RelativeToolTip": "WinFormTest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T23:23:05.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SwapTask.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\SwapTask.cs",
-              "RelativeDocumentMoniker": "NextTimeTsuyu2\\SwapTask.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\SwapTask.cs",
-              "RelativeToolTip": "NextTimeTsuyu2\\SwapTask.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T01:39:12.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Sync.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Sync.cs",
-              "RelativeDocumentMoniker": "NTTSystem\\Sync.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Sync.cs",
-              "RelativeToolTip": "NTTSystem\\Sync.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T08:27:26.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "WinFormTest.csproj",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\WinFormTest.csproj",
               "RelativeDocumentMoniker": "WinFormTest\\WinFormTest.csproj",
@@ -388,7 +323,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Copy.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Copy.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\Copy.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Copy.cs",
+              "RelativeToolTip": "NTTSystem\\Copy.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:53:50.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "WinFormTest\\MainForm.Designer.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\MainForm.Designer.cs",
+              "RelativeToolTip": "WinFormTest\\MainForm.Designer.cs",
+              "ViewState": "AgIAADYCAAAAAAAAAAAAAN8BAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T13:46:21.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BackupResult.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\BackupResult.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\BackupResult.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\BackupResult.cs",
+              "RelativeToolTip": "NTTSystem\\BackupResult.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:32:06.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Program.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\Program.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Program.cs",
+              "RelativeToolTip": "NTTSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T13:02:16.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DayTo.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayTo.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\DayTo.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\DayTo.cs",
+              "RelativeToolTip": "NTTSystem\\DayTo.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:35:04.461Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\Program.cs",
+              "RelativeDocumentMoniker": "WinFormTest\\Program.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\Program.cs",
+              "RelativeToolTip": "WinFormTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T23:23:05.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SwapTask.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\SwapTask.cs",
+              "RelativeDocumentMoniker": "NextTimeTsuyu2\\SwapTask.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\SwapTask.cs",
+              "RelativeToolTip": "NextTimeTsuyu2\\SwapTask.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T01:39:12.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Sync.cs",
+              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Sync.cs",
+              "RelativeDocumentMoniker": "NTTSystem\\Sync.cs",
+              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\Sync.cs",
+              "RelativeToolTip": "NTTSystem\\Sync.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T08:27:26.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "LoadBalancer.cs",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\LoadBalancer.cs",
               "RelativeDocumentMoniker": "NextTimeTsuyu2\\LoadBalancer.cs",
@@ -396,25 +428,11 @@
               "RelativeToolTip": "NextTimeTsuyu2\\LoadBalancer.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T06:37:03.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T06:37:03.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Program.cs",
-              "RelativeDocumentMoniker": "NextTimeTsuyu2\\Program.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Program.cs",
-              "RelativeToolTip": "NextTimeTsuyu2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T06:12:23.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "WriteTask.cs",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\WriteTask.cs",
               "RelativeDocumentMoniker": "NextTimeTsuyu2\\WriteTask.cs",
@@ -422,12 +440,11 @@
               "RelativeToolTip": "NextTimeTsuyu2\\WriteTask.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAxwB8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T06:13:02.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T06:13:02.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "LoadBalancerBasic.cs",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\LoadBalancerBasic.cs",
               "RelativeDocumentMoniker": "NextTimeTsuyu2\\LoadBalancerBasic.cs",
@@ -435,12 +452,11 @@
               "RelativeToolTip": "NextTimeTsuyu2\\LoadBalancerBasic.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwCwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T06:44:07.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T06:44:07.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "NTTSystem.csproj",
               "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NTTSystem\\NTTSystem.csproj",
               "RelativeDocumentMoniker": "NTTSystem\\NTTSystem.csproj",
@@ -450,31 +466,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-05T08:26:43.83Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SettingForm.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
-              "RelativeDocumentMoniker": "WinFormTest\\SettingForm.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\WinFormTest\\SettingForm.cs",
-              "RelativeToolTip": "WinFormTest\\SettingForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T15:34:34.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Setting.cs",
-              "RelativeDocumentMoniker": "NextTimeTsuyu2\\Setting.cs",
-              "ToolTip": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\Setting.cs",
-              "RelativeToolTip": "NextTimeTsuyu2\\Setting.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwB8AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T06:13:56.031Z"
             },
             {
               "$type": "Document",

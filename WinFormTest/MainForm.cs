@@ -647,10 +647,10 @@ namespace WinFormTest
             if (_system_setting_file._day_from_selected == null)
                 return;
             DayTo dt = _system_setting_file._day_from_selected.h_day_to_search(day_to_write_string);
-            _system_setting_file._day_from_selected._day_to_selected
-                = _system_setting_file._day_from_selected.h_day_to_search(day_to_write_string);
+
             if (dt != null)
             {
+                _system_setting_file._day_from_selected._day_to_selected = dt;
                 txbFolderBackupBackupPath.Text = dt.ToString();
             }
         }

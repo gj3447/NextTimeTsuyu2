@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextTimeTsuyu2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc58f1dc020e966ab82df49c7d88cab15ab829ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc894531053bc04a37fc1533f3eb47aedd32407")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextTimeTsuyu2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NextTimeTsuyu2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
