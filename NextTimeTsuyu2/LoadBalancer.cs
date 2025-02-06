@@ -19,10 +19,11 @@ namespace NextTimeTsuyu2
         {
             switch (type)
             {
+                /*
                 case LoadBalancer.TYPE.RAND:
                     return new LoadBalancerRand(backup);
                 case LoadBalancer.TYPE.PRIORITY:
-                    return new LoadBalancerPriority(backup);
+                    return new LoadBalancerPriority(backup);*/
                 case LoadBalancer.TYPE.BASIC:
                     return new LoadBalancerBasic(backup);
                 default:
@@ -31,8 +32,9 @@ namespace NextTimeTsuyu2
         }
         public enum TYPE
         {
+            /*
             RAND,
-            PRIORITY,
+            PRIORITY,*/
             BASIC
         }
     }

@@ -19,6 +19,7 @@ namespace NTTSystem
         public BackupResult _result { get; set; }
 
         private object _lock = new object();
+        public bool is_sync_able { get; set; }
 
         public Sync(string from_path , string to_path)
         {
@@ -27,9 +28,12 @@ namespace NTTSystem
             _to_path = to_path;
 
             _last_sync_time = DateTime.MinValue;
+            is_sync_able = true;
         }
         public NextTimeTsuyu2.Backup h_sync_update(NextTimeTsuyu2.Setting setting)
         {
+            if (!is_sync_able)
+                return null;
             if (!File.Exists(_from_path))
                 return null;
             if (!File.Exists(_to_path))
@@ -40,17 +44,21 @@ namespace NTTSystem
             NextTimeTsuyu2.Backup backup =
                 NextTimeTsuyu2.Backup.h_backup(_from_path, _to_path, setting);
             Task.Run(() => {
+                is_sync_able = false;
                 lock (_lock)
                 {
                     backup.Start();
                     _result = new BackupResult(backup);
                     _last_sync_time = new FileInfo(_to_path).LastWriteTime;
                 }
+                is_sync_able = true;
             });
             return backup;
         }
         public NextTimeTsuyu2.Backup h_sync(NextTimeTsuyu2.Setting setting)
         {
+            if (!is_sync_able)
+                return null;
             if (!File.Exists(_from_path))
                 return null;
             if (!File.Exists(_to_path))
@@ -61,23 +69,22 @@ namespace NTTSystem
 
             
             Task.Run(() => {
+                is_sync_able = false;
                 lock (_lock)
                 {
                     backup.Start();
                     _result = new BackupResult(backup);
                     _last_sync_time = new FileInfo(_to_path).LastWriteTime;
                 }
+                is_sync_able = true;
             });
             return backup;
         }
         public void h_swap()
         {
-            lock(_lock)
-            {
-                string temp = _from_path;
-                _from_path = _to_path;
-                _to_path = temp;
-            }
+            string temp = _from_path;
+            _from_path = _to_path;
+            _to_path = temp;
         }
     }
 }

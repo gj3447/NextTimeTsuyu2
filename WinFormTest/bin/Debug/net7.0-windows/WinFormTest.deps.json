@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WinFormTest/1.0.0": {
+        "dependencies": {
+          "NTTSystem": "1.0.0",
+          "NextTimeTsuyu2": "1.0.0"
+        },
+        "runtime": {
+          "WinFormTest.dll": {}
+        }
+      },
+      "NextTimeTsuyu2/1.0.0": {
+        "runtime": {
+          "NextTimeTsuyu2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NTTSystem/1.0.0": {
+        "dependencies": {
+          "NextTimeTsuyu2": "1.0.0"
+        },
+        "runtime": {
+          "NTTSystem.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NextTimeTsuyu2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NTTSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

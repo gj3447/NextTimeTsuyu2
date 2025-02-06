@@ -16,6 +16,7 @@ namespace NTTSystem
         public string _from_path { get; set; }
         public string _to_path { get; set; }
         public List<DayTo> _day_to_list { get; set; }
+        public DayTo _day_to_selected { get; set; }
 
         public bool _mon { get; set; }
         public bool _tue { get; set; }
@@ -27,7 +28,9 @@ namespace NTTSystem
         
         public bool _run { get; set; }
         private DateTime _backup_date { get; set; }
-   
+
+        public bool restore_able { get; set; }
+        public int last_dayto_count;
         public DayFrom(string from_path,string to_path)
         {
             _id = _id_counter++;
@@ -43,8 +46,11 @@ namespace NTTSystem
 
             _run = false;
             _backup_date = DateTime.MinValue;
+            _day_to_list = new List<DayTo>();
+            restore_able = true;
+            last_dayto_count = 0;
         }
-        public NextTimeTsuyu2.Backup h_day_from_update(NextTimeTsuyu2.Setting setting)
+        public DayTo h_day_from_update(NextTimeTsuyu2.Setting setting)
         {
             if (_run)
             {
@@ -71,7 +77,7 @@ namespace NTTSystem
             }
             return null;
         }
-        public NextTimeTsuyu2.Backup h_day_to_backup(NextTimeTsuyu2.Setting setting)
+        public DayTo h_day_to_backup(NextTimeTsuyu2.Setting setting)
         {
             if (!Directory.Exists(_from_path))
                 throw new Exception("Day From 오류 _from_path 에 폴더가 없습니다");
@@ -80,12 +86,30 @@ namespace NTTSystem
 
             string safeDirName = DateTime.Now.ToString("yyyyMMdd_HHmmss");
             string write_path = Path.Combine(_to_path, safeDirName);
+
             NextTimeTsuyu2.Backup backup = NextTimeTsuyu2.Backup.h_backup(_from_path, write_path, setting);
             Task.Run(() =>{ 
                 backup.Start();
-                _day_to_list.Add(new DayTo(this, write_path, new BackupResult(backup)));
             });
-            return backup;
+            return new DayTo(this,write_path,null);
+        }
+        public DayTo h_day_to_search(int id)
+        {
+            foreach(DayTo e in _day_to_list)
+            {
+                if (e._id == id)
+                    return e;
+            }
+            return null;
+        }
+        public DayTo h_day_to_search(string write_path)
+        {
+            foreach (DayTo e in _day_to_list)
+            {
+                if (e._write_path == write_path)
+                    return e;
+            }
+            return null;
         }
     }
 }

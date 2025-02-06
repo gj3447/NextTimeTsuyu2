@@ -21,5 +21,15 @@ namespace NTTSystem
             _write_path = write_path;
             _result = result;
         }
+        public void h_restore(NextTimeTsuyu2.Setting setting)
+        {
+            if (!_day_from.restore_able) return;
+            _day_from.restore_able = false;
+            NextTimeTsuyu2.Backup backup = NextTimeTsuyu2.Backup.h_backup(_write_path, _day_from._from_path, setting);
+            Task.Run(() => {
+                backup.Start();
+                _day_from.restore_able = true;
+            });
+        }
     }
 }

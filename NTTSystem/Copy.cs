@@ -21,6 +21,8 @@ namespace NTTSystem
         }
         public NextTimeTsuyu2.Backup h_copy(NextTimeTsuyu2.Setting setting)
         {
+            if (_from_path == _to_path)
+                return null;
             if (!_copy_able)
                 return null;
             _copy_able = false;
@@ -32,6 +34,7 @@ namespace NTTSystem
                 {
                     _backup.Start();
                     _result = new BackupResult(_backup);
+                    _copy_able = true;
                 });
                 return _backup;
             }

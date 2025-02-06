@@ -1,0 +1,15 @@
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\bin\Debug\net7.0\NextTimeTsuyu2.exe
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\bin\Debug\net7.0\NextTimeTsuyu2.deps.json
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\bin\Debug\net7.0\NextTimeTsuyu2.runtimeconfig.json
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\bin\Debug\net7.0\NextTimeTsuyu2.dll
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\bin\Debug\net7.0\NextTimeTsuyu2.pdb
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.GeneratedMSBuildEditorConfig.editorconfig
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.AssemblyInfoInputs.cache
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.AssemblyInfo.cs
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.csproj.CoreCompileInputs.cache
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.sourcelink.json
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.dll
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\refint\NextTimeTsuyu2.dll
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.pdb
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\NextTimeTsuyu2.genruntimeconfig.cache
+C:\CD\C#\NextTimeTsuyu2\NextTimeTsuyu2\obj\Debug\net7.0\ref\NextTimeTsuyu2.dll

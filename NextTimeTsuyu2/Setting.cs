@@ -22,6 +22,16 @@ namespace NextTimeTsuyu2
         public LoadBalancer.TYPE get_load_balancer_type
         { get { return _load_balancer_type; } }
 
+
+        public int set_chunk_size
+        { set { _chunk_size = value; } }
+        public int set_worker_count
+        { set { _worker_count = value; } }
+        public long set_memory_size
+        { set { _memory_size = value; } }
+        public LoadBalancer.TYPE set_load_balancer_type
+        { set { _load_balancer_type = value; } }
+
         public Setting (int chunk_size, int worker_count, long memory_size, LoadBalancer.TYPE load_balancer_type)
         {
             this._chunk_size         = chunk_size;

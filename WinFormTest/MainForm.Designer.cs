@@ -32,6 +32,7 @@
             btnPanelChangeFileSync = new Button();
             btnPanelChangeFolderBackup = new Button();
             pnlFileSync = new Panel();
+            button1 = new Button();
             btnFileSyncSyncLoadFileSystem = new Button();
             btnFileSyncTargetLoadFileSystem = new Button();
             lblFileSyncStatus = new Label();
@@ -44,6 +45,7 @@
             btnFileSyncChange = new Button();
             btnFileSyncCopy = new Button();
             pnlFolderBackup = new Panel();
+            btnFolderBackupLoadFileSystem = new Button();
             ckbFolderBackupRun = new CheckBox();
             ckbFolderBackupSun = new CheckBox();
             ckbFolderBackupSat = new CheckBox();
@@ -54,7 +56,7 @@
             ckbFolderBackupMon = new CheckBox();
             lblFolderBackupBackup = new Label();
             lblFolderBackupTarget = new Label();
-            btnFolderBackupLoadFileSystem = new Button();
+            btnFolderTargetLoadFileSystem = new Button();
             btnFolderBackupRestore = new Button();
             btnFolderBackupCopy = new Button();
             txbFolderBackupBackupPath = new TextBox();
@@ -117,6 +119,7 @@
             // 
             // pnlFileSync
             // 
+            pnlFileSync.Controls.Add(button1);
             pnlFileSync.Controls.Add(btnFileSyncSyncLoadFileSystem);
             pnlFileSync.Controls.Add(btnFileSyncTargetLoadFileSystem);
             pnlFileSync.Controls.Add(lblFileSyncStatus);
@@ -133,14 +136,25 @@
             pnlFileSync.Size = new Size(438, 441);
             pnlFileSync.TabIndex = 3;
             // 
+            // button1
+            // 
+            button1.Location = new Point(363, 81);
+            button1.Name = "button1";
+            button1.Size = new Size(67, 39);
+            button1.TabIndex = 14;
+            button1.Text = "Delete";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // btnFileSyncSyncLoadFileSystem
             // 
-            btnFileSyncSyncLoadFileSystem.Location = new Point(411, 6);
+            btnFileSyncSyncLoadFileSystem.Location = new Point(411, 7);
             btnFileSyncSyncLoadFileSystem.Name = "btnFileSyncSyncLoadFileSystem";
             btnFileSyncSyncLoadFileSystem.Size = new Size(21, 23);
             btnFileSyncSyncLoadFileSystem.TabIndex = 13;
             btnFileSyncSyncLoadFileSystem.Text = "..";
             btnFileSyncSyncLoadFileSystem.UseVisualStyleBackColor = true;
+            btnFileSyncSyncLoadFileSystem.Click += btnFileSyncSyncLoadFileSystem_Click;
             // 
             // btnFileSyncTargetLoadFileSystem
             // 
@@ -150,6 +164,7 @@
             btnFileSyncTargetLoadFileSystem.TabIndex = 11;
             btnFileSyncTargetLoadFileSystem.Text = "..";
             btnFileSyncTargetLoadFileSystem.UseVisualStyleBackColor = true;
+            btnFileSyncTargetLoadFileSystem.Click += btnFileSyncTargetLoadFileSystem_Click;
             // 
             // lblFileSyncStatus
             // 
@@ -175,6 +190,7 @@
             txbFileSyncSyncPath.Name = "txbFileSyncSyncPath";
             txbFileSyncSyncPath.Size = new Size(172, 23);
             txbFileSyncSyncPath.TabIndex = 8;
+            txbFileSyncSyncPath.TextChanged += txbFileSyncSyncPath_TextChanged;
             // 
             // txbFileSyncTargetPath
             // 
@@ -182,6 +198,7 @@
             txbFileSyncTargetPath.Name = "txbFileSyncTargetPath";
             txbFileSyncTargetPath.Size = new Size(172, 23);
             txbFileSyncTargetPath.TabIndex = 7;
+            txbFileSyncTargetPath.TextChanged += txbFileSyncTargetPath_TextChanged;
             // 
             // btnFileSyncAdd
             // 
@@ -191,6 +208,7 @@
             btnFileSyncAdd.TabIndex = 6;
             btnFileSyncAdd.Text = "Add";
             btnFileSyncAdd.UseVisualStyleBackColor = true;
+            btnFileSyncAdd.Click += btnFileSyncAdd_Click;
             // 
             // lstvFileSync
             // 
@@ -199,6 +217,7 @@
             lstvFileSync.Size = new Size(346, 402);
             lstvFileSync.TabIndex = 4;
             lstvFileSync.UseCompatibleStateImageBehavior = false;
+            lstvFileSync.View = View.Details;
             // 
             // btnFileSyncSync
             // 
@@ -208,6 +227,7 @@
             btnFileSyncSync.TabIndex = 3;
             btnFileSyncSync.Text = "Sync";
             btnFileSyncSync.UseVisualStyleBackColor = true;
+            btnFileSyncSync.Click += btnFileSyncSync_Click;
             // 
             // btnFileSyncChange
             // 
@@ -215,8 +235,9 @@
             btnFileSyncChange.Name = "btnFileSyncChange";
             btnFileSyncChange.Size = new Size(72, 39);
             btnFileSyncChange.TabIndex = 2;
-            btnFileSyncChange.Text = "Change";
+            btnFileSyncChange.Text = "Swap";
             btnFileSyncChange.UseVisualStyleBackColor = true;
+            btnFileSyncChange.Click += btnFileSyncChange_Click;
             // 
             // btnFileSyncCopy
             // 
@@ -226,9 +247,11 @@
             btnFileSyncCopy.TabIndex = 1;
             btnFileSyncCopy.Text = "Copy";
             btnFileSyncCopy.UseVisualStyleBackColor = true;
+            btnFileSyncCopy.Click += btnFileSyncCopy_Click;
             // 
             // pnlFolderBackup
             // 
+            pnlFolderBackup.Controls.Add(btnFolderBackupLoadFileSystem);
             pnlFolderBackup.Controls.Add(ckbFolderBackupRun);
             pnlFolderBackup.Controls.Add(ckbFolderBackupSun);
             pnlFolderBackup.Controls.Add(ckbFolderBackupSat);
@@ -239,7 +262,7 @@
             pnlFolderBackup.Controls.Add(ckbFolderBackupMon);
             pnlFolderBackup.Controls.Add(lblFolderBackupBackup);
             pnlFolderBackup.Controls.Add(lblFolderBackupTarget);
-            pnlFolderBackup.Controls.Add(btnFolderBackupLoadFileSystem);
+            pnlFolderBackup.Controls.Add(btnFolderTargetLoadFileSystem);
             pnlFolderBackup.Controls.Add(btnFolderBackupRestore);
             pnlFolderBackup.Controls.Add(btnFolderBackupCopy);
             pnlFolderBackup.Controls.Add(txbFolderBackupBackupPath);
@@ -247,10 +270,20 @@
             pnlFolderBackup.Controls.Add(btnFolderBackupAdd);
             pnlFolderBackup.Controls.Add(lstvFolderBackupBackup);
             pnlFolderBackup.Controls.Add(lstvFolderBackupTarget);
-            pnlFolderBackup.Location = new Point(456, 27);
+            pnlFolderBackup.Location = new Point(12, 27);
             pnlFolderBackup.Name = "pnlFolderBackup";
             pnlFolderBackup.Size = new Size(438, 441);
             pnlFolderBackup.TabIndex = 4;
+            // 
+            // btnFolderBackupLoadFileSystem
+            // 
+            btnFolderBackupLoadFileSystem.Location = new Point(338, 222);
+            btnFolderBackupLoadFileSystem.Name = "btnFolderBackupLoadFileSystem";
+            btnFolderBackupLoadFileSystem.Size = new Size(21, 23);
+            btnFolderBackupLoadFileSystem.TabIndex = 25;
+            btnFolderBackupLoadFileSystem.Text = "..";
+            btnFolderBackupLoadFileSystem.UseVisualStyleBackColor = true;
+            btnFolderBackupLoadFileSystem.Click += btnFolderBackupLoadFileSystem_Click_1;
             // 
             // ckbFolderBackupRun
             // 
@@ -261,76 +294,84 @@
             ckbFolderBackupRun.TabIndex = 24;
             ckbFolderBackupRun.Text = "RUN";
             ckbFolderBackupRun.UseVisualStyleBackColor = true;
+            ckbFolderBackupRun.CheckedChanged += ckbFolderBackupRun_CheckedChanged;
             // 
             // ckbFolderBackupSun
             // 
             ckbFolderBackupSun.AutoSize = true;
-            ckbFolderBackupSun.Location = new Point(366, 241);
+            ckbFolderBackupSun.Location = new Point(365, 196);
             ckbFolderBackupSun.Name = "ckbFolderBackupSun";
             ckbFolderBackupSun.Size = new Size(50, 19);
             ckbFolderBackupSun.TabIndex = 23;
             ckbFolderBackupSun.Text = "SUN";
             ckbFolderBackupSun.UseVisualStyleBackColor = true;
+            ckbFolderBackupSun.CheckedChanged += ckbFolderBackupSun_CheckedChanged;
             // 
             // ckbFolderBackupSat
             // 
             ckbFolderBackupSat.AutoSize = true;
-            ckbFolderBackupSat.Location = new Point(366, 216);
+            ckbFolderBackupSat.Location = new Point(365, 171);
             ckbFolderBackupSat.Name = "ckbFolderBackupSat";
             ckbFolderBackupSat.Size = new Size(47, 19);
             ckbFolderBackupSat.TabIndex = 22;
             ckbFolderBackupSat.Text = "SAT";
             ckbFolderBackupSat.UseVisualStyleBackColor = true;
+            ckbFolderBackupSat.CheckedChanged += ckbFolderBackupSat_CheckedChanged;
             // 
             // ckbFolderBackupFri
             // 
             ckbFolderBackupFri.AutoSize = true;
-            ckbFolderBackupFri.Location = new Point(366, 191);
+            ckbFolderBackupFri.Location = new Point(365, 146);
             ckbFolderBackupFri.Name = "ckbFolderBackupFri";
             ckbFolderBackupFri.Size = new Size(42, 19);
             ckbFolderBackupFri.TabIndex = 21;
             ckbFolderBackupFri.Text = "FRI";
             ckbFolderBackupFri.UseVisualStyleBackColor = true;
+            ckbFolderBackupFri.CheckedChanged += ckbFolderBackupFri_CheckedChanged;
             // 
             // ckbFolderBackupThu
             // 
             ckbFolderBackupThu.AutoSize = true;
-            ckbFolderBackupThu.Location = new Point(366, 166);
+            ckbFolderBackupThu.Location = new Point(365, 121);
             ckbFolderBackupThu.Name = "ckbFolderBackupThu";
             ckbFolderBackupThu.Size = new Size(49, 19);
             ckbFolderBackupThu.TabIndex = 20;
             ckbFolderBackupThu.Text = "THU";
             ckbFolderBackupThu.UseVisualStyleBackColor = true;
+            ckbFolderBackupThu.CheckedChanged += ckbFolderBackupThu_CheckedChanged;
             // 
             // ckbFolderBackupWed
             // 
             ckbFolderBackupWed.AutoSize = true;
-            ckbFolderBackupWed.Location = new Point(366, 141);
+            ckbFolderBackupWed.Location = new Point(365, 96);
             ckbFolderBackupWed.Name = "ckbFolderBackupWed";
             ckbFolderBackupWed.Size = new Size(52, 19);
             ckbFolderBackupWed.TabIndex = 19;
             ckbFolderBackupWed.Text = "WED";
             ckbFolderBackupWed.UseVisualStyleBackColor = true;
+            ckbFolderBackupWed.CheckedChanged += ckbFolderBackupWed_CheckedChanged;
             // 
             // ckbFolderBackupTue
             // 
             ckbFolderBackupTue.AutoSize = true;
-            ckbFolderBackupTue.Location = new Point(366, 116);
+            ckbFolderBackupTue.Location = new Point(365, 71);
             ckbFolderBackupTue.Name = "ckbFolderBackupTue";
             ckbFolderBackupTue.Size = new Size(46, 19);
             ckbFolderBackupTue.TabIndex = 18;
             ckbFolderBackupTue.Text = "TUE";
             ckbFolderBackupTue.UseVisualStyleBackColor = true;
+            ckbFolderBackupTue.CheckedChanged += ckbFolderBackupTue_CheckedChanged;
             // 
             // ckbFolderBackupMon
             // 
             ckbFolderBackupMon.AutoSize = true;
-            ckbFolderBackupMon.Location = new Point(366, 91);
+            ckbFolderBackupMon.Location = new Point(365, 46);
             ckbFolderBackupMon.Name = "ckbFolderBackupMon";
             ckbFolderBackupMon.Size = new Size(55, 19);
             ckbFolderBackupMon.TabIndex = 17;
             ckbFolderBackupMon.Text = "MON";
             ckbFolderBackupMon.UseVisualStyleBackColor = true;
+            ckbFolderBackupMon.CheckedChanged += ckbFolderBackupMon_CheckedChanged;
             // 
             // lblFolderBackupBackup
             // 
@@ -350,14 +391,15 @@
             lblFolderBackupTarget.TabIndex = 15;
             lblFolderBackupTarget.Text = "target:";
             // 
-            // btnFolderBackupLoadFileSystem
+            // btnFolderTargetLoadFileSystem
             // 
-            btnFolderBackupLoadFileSystem.Location = new Point(366, 4);
-            btnFolderBackupLoadFileSystem.Name = "btnFolderBackupLoadFileSystem";
-            btnFolderBackupLoadFileSystem.Size = new Size(21, 23);
-            btnFolderBackupLoadFileSystem.TabIndex = 14;
-            btnFolderBackupLoadFileSystem.Text = "..";
-            btnFolderBackupLoadFileSystem.UseVisualStyleBackColor = true;
+            btnFolderTargetLoadFileSystem.Location = new Point(338, 3);
+            btnFolderTargetLoadFileSystem.Name = "btnFolderTargetLoadFileSystem";
+            btnFolderTargetLoadFileSystem.Size = new Size(21, 23);
+            btnFolderTargetLoadFileSystem.TabIndex = 14;
+            btnFolderTargetLoadFileSystem.Text = "..";
+            btnFolderTargetLoadFileSystem.UseVisualStyleBackColor = true;
+            btnFolderTargetLoadFileSystem.Click += btnFolderTargetLoadFileSystem_Click;
             // 
             // btnFolderBackupRestore
             // 
@@ -367,6 +409,7 @@
             btnFolderBackupRestore.TabIndex = 9;
             btnFolderBackupRestore.Text = "Restore";
             btnFolderBackupRestore.UseVisualStyleBackColor = true;
+            btnFolderBackupRestore.Click += btnFolderBackupRestore_Click;
             // 
             // btnFolderBackupCopy
             // 
@@ -376,29 +419,33 @@
             btnFolderBackupCopy.TabIndex = 8;
             btnFolderBackupCopy.Text = "Copy";
             btnFolderBackupCopy.UseVisualStyleBackColor = true;
+            btnFolderBackupCopy.Click += btnFolderBackupCopy_Click;
             // 
             // txbFolderBackupBackupPath
             // 
             txbFolderBackupBackupPath.Location = new Point(65, 223);
             txbFolderBackupBackupPath.Name = "txbFolderBackupBackupPath";
-            txbFolderBackupBackupPath.Size = new Size(294, 23);
+            txbFolderBackupBackupPath.Size = new Size(267, 23);
             txbFolderBackupBackupPath.TabIndex = 7;
+            txbFolderBackupBackupPath.TextChanged += txbFolderBackupBackupPath_TextChanged;
             // 
             // txbFolderBackupTargetPath
             // 
             txbFolderBackupTargetPath.Location = new Point(57, 4);
             txbFolderBackupTargetPath.Name = "txbFolderBackupTargetPath";
-            txbFolderBackupTargetPath.Size = new Size(302, 23);
+            txbFolderBackupTargetPath.Size = new Size(275, 23);
             txbFolderBackupTargetPath.TabIndex = 6;
+            txbFolderBackupTargetPath.TextChanged += txbFolderBackupTargetPath_TextChanged;
             // 
             // btnFolderBackupAdd
             // 
-            btnFolderBackupAdd.Location = new Point(366, 36);
+            btnFolderBackupAdd.Location = new Point(365, 1);
             btnFolderBackupAdd.Name = "btnFolderBackupAdd";
             btnFolderBackupAdd.Size = new Size(69, 39);
             btnFolderBackupAdd.TabIndex = 5;
             btnFolderBackupAdd.Text = "Add";
             btnFolderBackupAdd.UseVisualStyleBackColor = true;
+            btnFolderBackupAdd.Click += btnFolderBackupAdd_Click;
             // 
             // lstvFolderBackupBackup
             // 
@@ -407,6 +454,8 @@
             lstvFolderBackupBackup.Size = new Size(351, 183);
             lstvFolderBackupBackup.TabIndex = 1;
             lstvFolderBackupBackup.UseCompatibleStateImageBehavior = false;
+            lstvFolderBackupBackup.View = View.Details;
+            lstvFolderBackupBackup.ColumnClick += lstvFolderBackupBackup_ColumnClick;
             // 
             // lstvFolderBackupTarget
             // 
@@ -415,6 +464,8 @@
             lstvFolderBackupTarget.Size = new Size(351, 183);
             lstvFolderBackupTarget.TabIndex = 0;
             lstvFolderBackupTarget.UseCompatibleStateImageBehavior = false;
+            lstvFolderBackupTarget.View = View.Details;
+            lstvFolderBackupTarget.SelectedIndexChanged += lstvFolderBackupTarget_SelectedIndexChanged;
             // 
             // pnlCopy
             // 
@@ -429,7 +480,7 @@
             pnlCopy.Controls.Add(txbCopyToPath);
             pnlCopy.Controls.Add(trvCopyFrom);
             pnlCopy.Controls.Add(txbCopyFromPath);
-            pnlCopy.Location = new Point(900, 27);
+            pnlCopy.Location = new Point(12, 27);
             pnlCopy.Name = "pnlCopy";
             pnlCopy.Size = new Size(438, 441);
             pnlCopy.TabIndex = 4;
@@ -458,6 +509,7 @@
             btnCopyCopy.TabIndex = 29;
             btnCopyCopy.Text = "Copy";
             btnCopyCopy.UseVisualStyleBackColor = true;
+            btnCopyCopy.Click += btnCopyCopy_Click;
             // 
             // lblCopyTo
             // 
@@ -492,6 +544,7 @@
             btnCopyToLoadFileSystem.TabIndex = 25;
             btnCopyToLoadFileSystem.Text = "..";
             btnCopyToLoadFileSystem.UseVisualStyleBackColor = true;
+            btnCopyToLoadFileSystem.Click += btnCopyToLoadFileSystem_Click;
             // 
             // btnCopyFromLoadFileSystem
             // 
@@ -501,6 +554,7 @@
             btnCopyFromLoadFileSystem.TabIndex = 24;
             btnCopyFromLoadFileSystem.Text = "..";
             btnCopyFromLoadFileSystem.UseVisualStyleBackColor = true;
+            btnCopyFromLoadFileSystem.Click += btnCopyFromLoadFileSystem_Click;
             // 
             // txbCopyToPath
             // 
@@ -508,6 +562,7 @@
             txbCopyToPath.Name = "txbCopyToPath";
             txbCopyToPath.Size = new Size(341, 23);
             txbCopyToPath.TabIndex = 2;
+            txbCopyToPath.TextChanged += txbCopyToPath_TextChanged;
             // 
             // trvCopyFrom
             // 
@@ -522,13 +577,14 @@
             txbCopyFromPath.Name = "txbCopyFromPath";
             txbCopyFromPath.Size = new Size(341, 23);
             txbCopyFromPath.TabIndex = 0;
+            txbCopyFromPath.TextChanged += txbCopyFromPath_TextChanged;
             // 
             // menuStrip1
             // 
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, settingToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1351, 24);
+            menuStrip1.Size = new Size(465, 24);
             menuStrip1.TabIndex = 5;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -562,7 +618,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1351, 504);
+            ClientSize = new Size(465, 504);
             Controls.Add(pnlCopy);
             Controls.Add(pnlFolderBackup);
             Controls.Add(btnPanelChangeFolderBackup);
@@ -573,6 +629,7 @@
             MainMenuStrip = menuStrip1;
             Name = "MainForm";
             Text = "MainForm";
+            FormClosing += MainForm_FormClosing;
             Load += MainForm_Load;
             pnlFileSync.ResumeLayout(false);
             pnlFileSync.PerformLayout();
@@ -614,7 +671,7 @@
         private Button btnFileSyncSyncLoadFileSystem;
         private Button btnFileSyncTargetLoadFileSystem;
         private Label lblFolderBackupTarget;
-        private Button btnFolderBackupLoadFileSystem;
+        private Button btnFolderTargetLoadFileSystem;
         private Button btnFolderBackupRestore;
         private Button btnFolderBackupCopy;
         private CheckBox ckbFolderBackupSun;
@@ -639,5 +696,7 @@
         private Button btnCopyCopy;
         private Label lblCopyStatus;
         private CheckBox ckbFolderBackupRun;
+        private Button btnFolderBackupLoadFileSystem;
+        private Button button1;
     }
 }

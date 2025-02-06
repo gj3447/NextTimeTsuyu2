@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net9.0-windows7.0": {
+    "net7.0-windows7.0": {
       "NextTimeTsuyu2/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/NextTimeTsuyu2.dll": {}
         },
@@ -14,7 +14,7 @@
       },
       "NTTSystem/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "NextTimeTsuyu2": "1.0.0"
         },
@@ -40,7 +40,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net9.0-windows7.0": [
+    "net7.0-windows7.0": [
       "NTTSystem >= 1.0.0",
       "NextTimeTsuyu2 >= 1.0.0"
     ]
@@ -67,7 +67,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0-windows"
+        "net7.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -75,8 +75,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0-windows7.0": {
-          "targetAlias": "net9.0-windows",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "projectReferences": {
             "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\NextTimeTsuyu2.csproj": {
               "projectPath": "C:\\CD\\C#\\NextTimeTsuyu2\\NextTimeTsuyu2\\NextTimeTsuyu2.csproj"
@@ -100,8 +100,8 @@
       "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net9.0-windows7.0": {
-        "targetAlias": "net9.0-windows",
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -121,7 +121,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
