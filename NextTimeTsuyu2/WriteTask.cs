@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NextTimeTsuyu2
 {
-    public class WriteTask : Task
+    public class WriteTask : NextTimeTsuyu2.Task
     {
         public static string h_path2temppath(string path)
         {

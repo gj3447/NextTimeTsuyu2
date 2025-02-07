@@ -9,14 +9,14 @@ namespace NTTSystem
 {
     public class SystemSettingFile
     {
-        private static int base_chunk_size = 1024;
+        private static int base_chunk_size =   1024;
         private static long base_memory_size = 1024 * 1024;
         private static NextTimeTsuyu2.LoadBalancer.TYPE base_loadbalancer_type = LoadBalancer.TYPE.BASIC;
+
         public NTTSystem.Copy _copy {get;set;}
         public List<DayFrom> _day_from_list { get; set; }
         public List<Sync> _sync_list { get; set; }
         public NextTimeTsuyu2.Setting _setting {get;set;}
-
         public DayFrom _day_from_selected { get; set; }
         public Sync _sync_selected { get; set; }
 
@@ -26,6 +26,8 @@ namespace NTTSystem
             _day_from_list = new List<DayFrom>();
             _sync_list = new List<Sync>();
             _setting = new Setting(base_chunk_size, Environment.ProcessorCount, base_memory_size, base_loadbalancer_type);
+            _day_from_selected = null;
+            _sync_selected     = null;
         }
 
         //무조건 폴더들만

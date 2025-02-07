@@ -22,7 +22,6 @@ namespace NextTimeTsuyu2
         private DateTime _start_time;
         private DateTime _end_time;
 
-
         public MemoryCluster get_memory_cluster => _memory_cluster;
         public ModuleCluster get_module_cluster => _module_cluster;
         public Setting get_setting => _setting;
@@ -32,7 +31,6 @@ namespace NextTimeTsuyu2
         public Backup.STATE get_state => _state;
         public System.Threading.Tasks.Task[] get_worker => _worker;
         public object[] get_worker_lock => _worker_lock;
-
 
         public DateTime get_start_time => _start_time;
         public DateTime get_end_time => _end_time;
@@ -52,7 +50,24 @@ namespace NextTimeTsuyu2
                 backup.Start();
                 return backup;
             }
-            throw new Exception("읽을 경로에 파일이 없습니다");
+            throw new Exception("읽을 경로에 파일이 없습니다.");
+        }
+        public static async System.Threading.Tasks.Task<Backup> h_backup_start_async
+            (string read_path, string write_path, Setting setting)
+        {
+            if(File.Exists(read_path))
+            {
+                Backup backup = h_file_backup(read_path, write_path, setting);
+                await backup.Start_async();
+                return backup;
+            }
+            if(Directory.Exists(read_path))
+            {
+                Backup backup = h_file_backup(read_path, write_path, setting);
+                await backup.Start_async();
+                return backup;
+            }
+            throw new Exception("읽을 경로에 파일이 없습니다.");
         }
         public static Backup h_backup
             (string read_path, string write_path, Setting setting)
@@ -81,7 +96,7 @@ namespace NextTimeTsuyu2
             return new Backup(module_cluster, memory_cluster, new_setting, Backup.MODE.DIRECTORY_BACKUP);
         }
 
-        public async void Start()
+        public Backup Start()
         {
             _start_time = DateTime.Now;
             _worker = new System.Threading.Tasks.Task[_setting.get_worker_count];
@@ -99,6 +114,13 @@ namespace NextTimeTsuyu2
             if (_mode == Backup.MODE.DIRECTORY_BACKUP)
                 Console.WriteLine("폴더 복사 끝");
             _state = Backup.STATE.END;
+
+            return this;
+        }
+        public async System.Threading.Tasks.Task<Backup> Start_async()
+        {
+            await System.Threading.Tasks.Task.Run(Start);
+            return this;
         }
         private void FileCopyPreProcess()
         {
@@ -183,7 +205,6 @@ namespace NextTimeTsuyu2
         }
         private void WorkRepeat(Backup backup, object this_lock)
         {
-
             while (true)
             {
                 IModule selected_module = null;

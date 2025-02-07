@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NextTimeTsuyu2
 {
-    public class SwapTask : Task
+    public class SwapTask : NextTimeTsuyu2.Task
     {
         public string _temp_path { get; init; }
 

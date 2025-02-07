@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NextTimeTsuyu2
 {
-    public class ReadTask : Task
+    public class ReadTask : NextTimeTsuyu2.Task
     {
         public int _index { get; init; }
 
@@ -30,7 +30,7 @@ namespace NextTimeTsuyu2
             memories.h_read_byte_size(bytes_to_read);
 
             byte[] buffer = new byte[bytes_to_read];
-            using (FileStream fs = new FileStream(fileinfo.FullName, FileMode.Open,FileAccess.Read,FileShare.Read))
+            using ( FileStream fs = new FileStream(fileinfo.FullName, FileMode.Open,FileAccess.Read,FileShare.Read))
             {
                 fs.Seek(offset, SeekOrigin.Begin);
                 int bytesRead = fs.Read(buffer, 0, bytes_to_read);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NextTimeTsuyu2
 {
-    public class SearchTask : Task
+    public class SearchTask : NextTimeTsuyu2.Task
     {
         public SearchTask.STATE _state;
         public void h_search_read(MemoryCluster memories, int chunk_size)

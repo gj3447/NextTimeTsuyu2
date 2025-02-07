@@ -41,6 +41,7 @@ namespace NextTimeTsuyu2
                     .h_state(_backup.get_memory_cluster, _backup.get_setting) == IModule.STATE.WORK)
                     return _backup.get_module_cluster.
                     get_swap_module;
+
             }
             return null;
         }

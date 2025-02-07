@@ -272,7 +272,7 @@ namespace WinFormTest
             ckbFolderBackupSat.Checked = dayfrom._sat;
             ckbFolderBackupSun.Checked = dayfrom._sun;
 
-            ckbFolderBackupRun.Checked = dayfrom._sun;
+            ckbFolderBackupRun.Checked = dayfrom._run;
         }
         private void txbFolderBackupBackupPath_TextChanged(object sender, EventArgs e)
         {
@@ -433,6 +433,7 @@ namespace WinFormTest
         private void lstvSyncUpdate()
         {
             lstvFileSync.Items.Clear();
+
             foreach (Sync e in _system_setting_file._sync_list)
             {
                 string from_file_name = new FileInfo(e._from_path).Name;

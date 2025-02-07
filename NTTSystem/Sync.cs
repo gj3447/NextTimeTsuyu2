@@ -33,15 +33,23 @@ namespace NTTSystem
         public NextTimeTsuyu2.Backup h_sync_update(NextTimeTsuyu2.Setting setting)
         {
             if (!is_sync_able)
+            {
                 return null;
+            }
             if (!File.Exists(_from_path))
+            {
                 return null;
+            }
             if (!File.Exists(_to_path))
+            {
                 return null;
+            }
             if (new FileInfo(_to_path).LastWriteTime == _last_sync_time)
+            {
                 return null;
-
-            NextTimeTsuyu2.Backup backup =
+            }
+            NextTimeTsuyu2.Backup backup
+                =
                 NextTimeTsuyu2.Backup.h_backup(_from_path, _to_path, setting);
             Task.Run(() => {
                 is_sync_able = false;
